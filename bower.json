@@ -1,0 +1,22 @@
+{
+  "name": "album",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Firstname Lastname <1234656@132.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/vender",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery":"^1.12.0"
+  }
+}

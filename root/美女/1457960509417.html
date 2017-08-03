@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<canvas id="canvas"></canvas>
+	<script type="text/javascript">
+		var canvas = document.getElementById("canvas");
+		canvas.width = 800;
+		canvas.height = 500;
+		canvas.style.border = "1px solid #000";
+
+		var ctx = canvas.getContext("2d");
+
+		var img = new Image();
+		img.src = "images/1.png";
+
+		img.onload = function(){
+			ctx.drawImage(img,0,0,img.width/4,img.height/4,200,200,img.width/4,img.height/4);
+		}
+		
+	</script>
+</body>
+</html>
